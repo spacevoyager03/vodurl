@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Add vodlink to twitchtracker
 // @namespace    http://tampermonkey.net/
-// @version      0.2
-// @description  try to take over the world!
+// @version      0.3
+// @description  adds vodlink button to twitchtracker.com
 // @author       You
 // @match        https://twitchtracker.com/*/streams/*
 // @grant        none
