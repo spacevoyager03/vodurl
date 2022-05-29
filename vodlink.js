@@ -55,7 +55,8 @@ static ROTL(x,n){return(x<<n)|(x>>>(32-n));}}
 "https://d2aba1wr3818hz.cloudfront.net",
 "https://d3c27h4odz752x.cloudfront.net",
 "https://dgeft87wbj63p.cloudfront.net",
-"https://d1m7jfoe9zdc1j.cloudfront.net"]
+"https://d1m7jfoe9zdc1j.cloudfront.net",
+"https://d2vjef5jvl6bfs.cloudfront.net"]
     let validURL = "";
     const promises = [];
     for (let i =0; i < domains.length; i++){
