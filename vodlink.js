@@ -96,9 +96,13 @@ static ROTL(x,n){return(x<<n)|(x>>>(32-n));}}
             })
         })
     }
-console.log("Valid url",validURL);
+    console.log("Valid url",validURL);
     //href.innerHTML = '<br><a href="https://dgeft87wbj63p.cloudfront.net/'+uuid+'/chunked/index-dvr.m3u8">Vod link</a>';
-    href.innerHTML = '<br><a href="'+validURL+'">Vod link</a>';
+    if (validURL != ""){
+       href.innerHTML = '<br><a href="'+validURL+'">Vod link</a>';
+    } else {
+      href.innerHTML = '<br>No Vod link found</a>';
+    }
     h2.appendChild(href);
  
  
